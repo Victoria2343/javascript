@@ -1,3 +1,5 @@
+import { random } from "./math.js";
+
 let greeting = "Привет! Как тебя зовут?";
 let name = prompt(greeting);
 
