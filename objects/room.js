@@ -2,26 +2,81 @@ let room = {
   name: "Моя комната"
 };
 
-room.table = { name: "Стол" };
-room.table.color = "brown";
-room.table.pencil = { name: "Карандаш" };
-room.table.pc = { name: "Мой компьютер" };
-room.table.copybook = { name: "Тетрадь" };
+// console.log(room);
 
-room.wardrobe = { name: "Шкаф для одежды" };
-room.wardrobe.color = "brown";
+// room.table = { name: "Стол" };
+// room.table.color = "brown";
+// room.table.pencil = { name: "Карандаш" };
+// room.table.pc = { name: "Мой компьютер" };
+// room.table.copybook = { name: "Тетрадь" };
 
-room.sofa = { name: "Диван" };
-room.sofa.color = "beige";
+let table = { name: "Стол" };
+table.color = "brown";
+table.pencil = { name: "Карандаш" };
+table.pc = { name: "Мой компьютер" };
 
-room.tvset = { name: "Телевизор" };
-room.tvset.model = "Samsung";
+table.pc.turnOn = function() {
+  alert("компьютер включен!!");
+};
 
-room.bookcase = { name: "Книжный шкаф" };
-room.bookcase.color = "brown";
-room.bookcase.book = "The Hobbit";
+table.copybook = { name: "Тетрадь" };
 
-room.flowerpot1 = { name: "Ficus" };
-room.flowerpot2 = { name: "Money Tree" };
+room.myTable = table;
 
-alert(room);
+room.myTable.color = "white";
+table.color = "blue";
+
+console.log(table);
+console.log(room.myTable);
+
+// room.wardrobe = { name: "Шкаф для одежды" };
+// room.wardrobe.color = "brown";
+
+let wardrobe = { name: "Шкаф для одежды" };
+wardrobe.color = "brown";
+
+room.myWardrobe = wardrobe;
+console.log(room.myWardrobe);
+
+// room.sofa = { name: "Диван" };
+// room.sofa.color = "beige";
+
+let sofa = { name: "Диван" };
+sofa.color = "beige";
+
+room.mySofa = sofa;
+console.log(room.mySofa);
+
+// room.tvset = { name: "Телевизор" };
+// room.tvset.model = "Samsung";
+
+let tvset = { name: "Телевизор" };
+tvset.model = "Samsung";
+
+room.tvset = tvset;
+console.log(room.tvset);
+
+// room.bookcase = { name: "Книжный шкаф" };
+// room.bookcase.color = "brown";
+// room.bookcase.book = "The Hobbit";
+
+let bookcase = { name: "Книжный шкаф" };
+bookcase.color = "brown";
+bookcase.book = "The Hobbit";
+
+room.bookcase = bookcase;
+console.log(room.bookcase);
+
+// room.flowerpot1 = { name: "Ficus" };
+// room.flowerpot2 = { name: "Money Tree" };
+
+let flowerpot1 = { name: "Ficus" };
+room.flowerpot1 = flowerpot1;
+
+let flowerpot2 = { name: "Money Tree" };
+room.flowerpot2 = flowerpot2;
+
+console.log(room.flowerpot1);
+console.log(room.flowerpot2);
+
+// alert(room);
