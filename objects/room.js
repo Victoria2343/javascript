@@ -35,6 +35,10 @@ console.log(room.myTable);
 let wardrobe = { name: "Шкаф для одежды" };
 wardrobe.color = "brown";
 
+wardrobe.openWardrobe = function() {
+  alert("Шкаф открыт");
+};
+
 room.myWardrobe = wardrobe;
 console.log(room.myWardrobe);
 
@@ -53,6 +57,10 @@ console.log(room.mySofa);
 let tvset = { name: "Телевизор" };
 tvset.model = "Samsung";
 
+tvset.turnOn = function() {
+  alert("Телевизор включен");
+};
+
 room.tvset = tvset;
 console.log(room.tvset);
 
@@ -64,6 +72,10 @@ let bookcase = { name: "Книжный шкаф" };
 bookcase.color = "brown";
 bookcase.book = "The Hobbit";
 
+bookcase.openBookcase = function() {
+  alert("Книжный шкаф открыт");
+};
+
 room.bookcase = bookcase;
 console.log(room.bookcase);
 
@@ -71,12 +83,14 @@ console.log(room.bookcase);
 // room.flowerpot2 = { name: "Money Tree" };
 
 let flowerpot1 = { name: "Ficus" };
-room.flowerpot1 = flowerpot1;
+table.flowerpot1 = flowerpot1;
+room.table.flowerpot1 = flowerpot1;
 
 let flowerpot2 = { name: "Money Tree" };
-room.flowerpot2 = flowerpot2;
+table.flowerpot2 = flowerpot2;
+room.table.flowerpot2 = flowerpot2;
 
-console.log(room.flowerpot1);
-console.log(room.flowerpot2);
+console.log(room.table.flowerpot1);
+console.log(room.table.flowerpot2);
 
 // alert(room);
