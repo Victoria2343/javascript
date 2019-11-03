@@ -8,4 +8,4 @@ tvset.turnOn = function() {
 };
 
 room.tvset = tvset;
-console.log(room.tvset);
+// console.log(room.tvset);

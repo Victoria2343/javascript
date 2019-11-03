@@ -8,5 +8,10 @@ bookcase.openBookcase = function() {
   alert("Книжный шкаф открыт");
 };
 
+bookcase.showInfo = function() {
+  console.log(
+    "Книжный шкаф - " + "color:" + this.color + "; book:" + this.book
+  );
+};
+
 room.bookcase = bookcase;
-console.log(room.bookcase);

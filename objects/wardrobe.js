@@ -8,4 +8,4 @@ wardrobe.openWardrobe = function() {
 };
 
 room.myWardrobe = wardrobe;
-console.log(room.myWardrobe);
+// console.log(room.myWardrobe);

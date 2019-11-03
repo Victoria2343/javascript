@@ -2,7 +2,8 @@ export let room = {
   name: "Моя комната"
 };
 
-console.log(room);
+//TODO: remove this code later
+// console.log(room);
 
 // room.wardrobe = { name: "Шкаф для одежды" };
 // room.wardrobe.color = "brown";

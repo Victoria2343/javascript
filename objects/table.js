@@ -1,20 +1,18 @@
 import { room } from "./room.js";
+import { pc } from "./pc.js";
+import { copybook } from "./copybook.js";
+import { pencil } from "./pencil.js";
 
-export let table = { name: "Стол" };
+let table = { name: "Стол" };
 table.color = "brown";
-table.pencil = { name: "Карандаш" };
-table.pc = { name: "Мой компьютер" };
 
-table.pc.turnOn = function() {
-  alert("компьютер включен!!");
-};
-
-table.copybook = { name: "Тетрадь" };
+table.copybook = copybook;
+table.pencil = pencil;
+table.pc = pc;
 
 room.myTable = table;
 
 room.myTable.color = "white";
 table.color = "blue";
 
-console.log(table);
-console.log(room.myTable);
+export { table };
