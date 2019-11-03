@@ -1,5 +1,3 @@
-import { room } from "./room.js";
-
 export let bookcase = { name: "Книжный шкаф" };
 bookcase.color = "brown";
 bookcase.book = "The Hobbit";
@@ -13,5 +11,3 @@ bookcase.showInfo = function() {
     "Книжный шкаф - " + "color:" + this.color + "; book:" + this.book
   );
 };
-
-room.bookcase = bookcase;
