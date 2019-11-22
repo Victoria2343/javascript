@@ -2,6 +2,6 @@ function Pencil() {
   this.name = "Карандаш";
 }
 
-const pencil = new Pencil();
+// const pencil = new Pencil();
 
-export { pencil };
+export { Pencil };

@@ -6,6 +6,4 @@ function Wardrobe() {
   };
 }
 
-const wardrobe = new Wardrobe();
-
-export { wardrobe };
+export { Wardrobe };

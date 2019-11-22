@@ -5,6 +5,4 @@ function Pc() {
   };
 }
 
-const pc = new Pc();
-
-export { pc };
+export { Pc };

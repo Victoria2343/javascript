@@ -6,6 +6,4 @@ function Tvset() {
   };
 }
 
-const tvset = new Tvset();
-
-export { tvset };
+export { Tvset };
