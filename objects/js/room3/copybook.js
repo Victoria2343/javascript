@@ -1,5 +1,5 @@
-function Copybook() {
-  this.name = "Тетрадь";
+function Copybook(name) {
+  this.name = name;
 }
 
 export { Copybook };

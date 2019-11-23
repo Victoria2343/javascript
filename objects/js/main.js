@@ -1,4 +1,9 @@
-// import { room } from "./room1/room.js";
-import { room } from "./room3/room.js";
-console.log(room);
+import { Room } from "./room3/room.js";
+
+const room = new Room("Моя комната");
+
+room.myTable.color = "brown";
+room.myTable2.color = "white";
+
 window.myRoom = room;
+console.log(room);

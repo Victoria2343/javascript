@@ -1,7 +1,5 @@
-function Pencil() {
-  this.name = "Карандаш";
+function Pencil(name) {
+  this.name = name;
 }
-
-// const pencil = new Pencil();
 
 export { Pencil };

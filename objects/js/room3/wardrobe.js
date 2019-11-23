@@ -1,6 +1,6 @@
-function Wardrobe() {
-  this.name = "Шкаф для одежды";
-  this.color = "brown";
+function Wardrobe(name, myColor) {
+  this.name = name;
+  this.color = myColor;
   this.openWardrobe = function() {
     alert("Шкаф открыт");
   };

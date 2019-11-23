@@ -1,6 +1,6 @@
-function Sofa() {
-  this.name = "Диван";
-  this.color = "beige";
+function Sofa(name, myColor) {
+  this.name = name;
+  this.color = myColor;
 }
 
 export { Sofa };

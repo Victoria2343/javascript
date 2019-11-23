@@ -1,9 +1,9 @@
-function Flowerpot1() {
-  this.name = "Ficus";
+function Flowerpot1(name) {
+  this.name = name;
 }
 
-function Flowerpot2() {
-  this.name = "Money Tree";
+function Flowerpot2(name) {
+  this.name = name;
 }
 
 export { Flowerpot1, Flowerpot2 };
